@@ -29,7 +29,7 @@
             1223: 204
         },
         xhrCallbacks = {},
-        xhrSupported = jQuery.ajaxSettings.xhr();
+        xhrSupported = $.ajaxSettings.xhr();
     // Support: IE9
     // Open requests must be manually aborted on unload (#5280)
     if ( window.ActiveXObject ) {
